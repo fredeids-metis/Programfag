@@ -5,8 +5,9 @@
 
 /* === Fargepalett (fra Bergen Private Gymnas) === */
 :root {
-  --primary-color: #F0523D;        /* Rød/orange accent */
-  --primary-hover: #d94532;        /* Mørkere rød for hover */
+  --primary-color: #1F4739;        /* Mørkegrønn (hovedfarge) */
+  --primary-hover: #163529;        /* Mørkere grønn for hover */
+  --secondary-color: #E8F5A3;      /* Lys lime/grønn */
   --text-dark: #000000;            /* Mørk tekst */
   --text-medium: #737373;          /* Medium grå tekst */
   --border-light: #e7e7e7;         /* Lys grå border */
@@ -46,13 +47,15 @@
   padding: 12px 20px;
   font-size: 16px;
   border: 2px solid var(--border-light);
-  border-radius: 8px;
-  transition: border-color 0.3s;
+  border-radius: 12px;
+  transition: all 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .programfag-search:focus {
   outline: none;
   border-color: var(--primary-color);
+  box-shadow: 0 4px 8px rgba(31, 71, 57, 0.15);
 }
 
 /* === Grid layout === */
@@ -65,17 +68,19 @@
 /* === Fagkort === */
 .programfag-card {
   background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 24px;
   transition: all 0.3s ease;
   cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .programfag-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(31, 71, 57, 0.15);
+  transform: translateY(-4px);
   border-color: var(--primary-color);
+  background: linear-gradient(to bottom, white 0%, rgba(232, 245, 163, 0.05) 100%);
 }
 
 .card-header {
@@ -94,13 +99,13 @@
 }
 
 .fagkode {
-  background: #f0f0f0;
-  padding: 4px 10px;
-  border-radius: 6px;
+  background: var(--secondary-color);
+  padding: 6px 12px;
+  border-radius: 8px;
   font-size: 0.85rem;
-  color: #666;
+  color: var(--primary-color);
   white-space: nowrap;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .card-body p {
@@ -114,16 +119,19 @@
   background: var(--primary-color);
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
+  padding: 12px 24px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 0.95rem;
-  font-weight: 500;
-  transition: background 0.3s;
+  font-weight: 600;
+  transition: all 0.3s;
+  box-shadow: 0 2px 6px rgba(31, 71, 57, 0.3);
 }
 
 .btn-details:hover {
   background: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(31, 71, 57, 0.4);
 }
 
 /* === Modal === */
@@ -144,7 +152,7 @@
 
 .modal-content {
   background: white;
-  border-radius: 12px;
+  border-radius: 20px;
   padding: 40px;
   max-width: 800px;
   width: 100%;
@@ -152,6 +160,8 @@
   overflow-y: auto;
   position: relative;
   animation: modalSlideIn 0.3s ease;
+  box-shadow: 0 10px 40px rgba(31, 71, 57, 0.2);
+  border: 2px solid var(--secondary-color);
 }
 
 @keyframes modalSlideIn {
@@ -196,12 +206,12 @@
 
 .fagkode-large {
   display: inline-block;
-  background: #f0f0f0;
-  padding: 6px 14px;
-  border-radius: 6px;
+  background: var(--secondary-color);
+  padding: 8px 16px;
+  border-radius: 10px;
   font-size: 0.9rem;
-  color: #666;
-  font-weight: 600;
+  color: var(--primary-color);
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -271,10 +281,11 @@
 
 .kjerneelement {
   margin-bottom: 20px;
-  padding: 15px;
+  padding: 18px;
   background: var(--background-light);
-  border-radius: 8px;
-  border-left: 4px solid var(--primary-color);
+  border-radius: 12px;
+  border-left: 5px solid var(--primary-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 .kjerneelement p {
@@ -286,17 +297,20 @@
 .btn-lareplan {
   display: inline-block;
   margin-top: 30px;
-  padding: 12px 24px;
+  padding: 14px 28px;
   background: var(--primary-color);
   color: white;
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background 0.3s;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: all 0.3s;
+  box-shadow: 0 3px 8px rgba(31, 71, 57, 0.3);
 }
 
 .btn-lareplan:hover {
   background: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(31, 71, 57, 0.4);
 }
 
 /* === Loading og error states === */
