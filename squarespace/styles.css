@@ -3,6 +3,16 @@
  * Enkel, ren design som er lett å tilpasse
  */
 
+/* === Fargepalett (fra Bergen Private Gymnas) === */
+:root {
+  --primary-color: #F0523D;        /* Rød/orange accent */
+  --primary-hover: #d94532;        /* Mørkere rød for hover */
+  --text-dark: #000000;            /* Mørk tekst */
+  --text-medium: #737373;          /* Medium grå tekst */
+  --border-light: #e7e7e7;         /* Lys grå border */
+  --background-light: #FAFAFA;     /* Lys bakgrunn */
+}
+
 /* === Container === */
 #programfag-catalog {
   max-width: 1200px;
@@ -35,14 +45,14 @@
   max-width: 500px;
   padding: 12px 20px;
   font-size: 16px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid var(--border-light);
   border-radius: 8px;
   transition: border-color 0.3s;
 }
 
 .programfag-search:focus {
   outline: none;
-  border-color: #4a90e2;
+  border-color: var(--primary-color);
 }
 
 /* === Grid layout === */
@@ -65,7 +75,7 @@
 .programfag-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
-  border-color: #4a90e2;
+  border-color: var(--primary-color);
 }
 
 .card-header {
@@ -101,7 +111,7 @@
 }
 
 .btn-details {
-  background: #4a90e2;
+  background: var(--primary-color);
   color: white;
   border: none;
   padding: 10px 20px;
@@ -113,7 +123,7 @@
 }
 
 .btn-details:hover {
-  background: #357abd;
+  background: var(--primary-hover);
 }
 
 /* === Modal === */
@@ -236,7 +246,7 @@
 .modal-body h4 {
   font-size: 1.2rem;
   margin: 20px 0 10px 0;
-  color: #4a90e2;
+  color: var(--primary-color);
 }
 
 .modal-body ul {
@@ -255,16 +265,16 @@
   content: "→";
   position: absolute;
   left: 0;
-  color: #4a90e2;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
 .kjerneelement {
   margin-bottom: 20px;
   padding: 15px;
-  background: #f9f9f9;
+  background: var(--background-light);
   border-radius: 8px;
-  border-left: 4px solid #4a90e2;
+  border-left: 4px solid var(--primary-color);
 }
 
 .kjerneelement p {
@@ -277,7 +287,7 @@
   display: inline-block;
   margin-top: 30px;
   padding: 12px 24px;
-  background: #4a90e2;
+  background: var(--primary-color);
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -286,7 +296,7 @@
 }
 
 .btn-lareplan:hover {
-  background: #357abd;
+  background: var(--primary-hover);
 }
 
 /* === Loading og error states === */
