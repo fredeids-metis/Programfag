@@ -1,5 +1,7 @@
 # Fagnavn;Fagkode;Læreplankode
 
+Informasjonsteknologi 1;REA3048;INF01‑03
+
 Matematikk R1;REA3056;MAT03-02
 Matematikk R2;REA3058;MAT03-02
 
