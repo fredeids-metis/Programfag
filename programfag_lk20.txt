@@ -37,7 +37,7 @@ Psykologi 1;SAM3072;PSY01‑04
 Psykologi 2;SAM3073;PSY01‑04
 
 Engelsk 1;SPR3029;ENG04‑02
-Engelsk 2;SPR3030;ENG04‑02
+Engelsk 2;SPR3031;ENG04‑02
 
 Musikk fordypning 1;MUS3006;MUS08‑02
 Musikk fordypning 2;MUS3008;MUS08‑02
