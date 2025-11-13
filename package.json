@@ -5,6 +5,8 @@
   "main": "scripts/build.js",
   "scripts": {
     "build": "node scripts/build.js",
+    "sync-docs": "cp -R dist/* docs/ || true",
+    "build-and-sync": "npm run build && npm run sync-docs",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": ["udir", "læreplan", "programfag", "lk20"],

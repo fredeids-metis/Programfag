@@ -1,0 +1,39 @@
+name: Build and publish docs
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Copy dist -> docs
+        run: |
+          mkdir -p docs
+          cp -R dist/* docs/ || true
+
+      - name: Commit and push docs
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update docs from dist (build ${{ github.sha }})"
+          add: "docs/**"
+          author_name: "github-actions[bot]"
+          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
