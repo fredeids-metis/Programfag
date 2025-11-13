@@ -433,29 +433,58 @@
     font-size: 1.3rem;
   }
 
+  .programfag-modal {
+    padding: 20px 10px;
+  }
+
   .modal-content {
-    padding: 25px 15px;
-    margin: 10px;
-    width: calc(100% - 20px); /* Sørg for margins på mobil */
+    padding: 20px 15px;
+    margin: 0;
+    width: 100%;
+    border-width: 1px;
+  }
+
+  .modal-content h2 {
+    font-size: 1.4rem;
+    padding-right: 30px;
   }
 
   .modal-body {
-    margin-left: -5px;
-    margin-right: -5px;
-  }
-
-  .kjerneelement {
-    padding: 15px;
-    margin-bottom: 15px;
     margin-left: 0;
     margin-right: 0;
   }
 
+  .modal-body h3 {
+    font-size: 1.3rem;
+  }
+
+  .kjerneelement {
+    padding: 12px;
+    margin-bottom: 12px;
+    margin-left: 0;
+    margin-right: 0;
+    border-left-width: 3px;
+  }
+
   .kjerneelement h4 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+  }
+
+  .kjerneelement p {
+    font-size: 0.9rem;
   }
 
   .modal-body ul li {
-    padding-right: 10px;
+    padding-right: 5px;
+    font-size: 0.9rem;
+  }
+
+  .om-faget {
+    font-size: 1rem;
+  }
+
+  .btn-lareplan {
+    padding: 12px 20px;
+    font-size: 0.9rem;
   }
 }
