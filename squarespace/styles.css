@@ -224,6 +224,22 @@
   margin-bottom: 20px;
 }
 
+/* === Fagbilde === */
+.fag-bilde {
+  margin: 20px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.fag-bilde img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 400px;
+  object-fit: cover;
+}
+
 /* === Vimeo video === */
 .vimeo-container {
   position: relative;

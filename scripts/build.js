@@ -47,6 +47,7 @@ files.forEach(file => {
     fagkode: data.fagkode,
     lareplan: data.lareplan || '',
     vimeo: data.vimeo || '',
+    bilde: data.bilde || '',
     generert: data.generert || '',
     sections: sections,
     html: html,

@@ -220,6 +220,13 @@ const ProgramfagCatalog = {
         ).join('')}`
       : '';
 
+    // Bilde hvis tilgjengelig
+    const bildeHTML = fag.bilde
+      ? `<div class="fag-bilde">
+          <img src="${fag.bilde}" alt="${fag.title}" />
+        </div>`
+      : '';
+
     // Vimeo-video hvis tilgjengelig
     const vimeoHTML = fag.vimeo
       ? `<div class="vimeo-container">
@@ -238,6 +245,7 @@ const ProgramfagCatalog = {
         <h2>${fag.title}</h2>
         <p class="fagkode-large">${fag.fagkode}</p>
 
+        ${bildeHTML}
         ${vimeoHTML}
 
         <div class="modal-body">
