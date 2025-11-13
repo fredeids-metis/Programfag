@@ -1,8 +1,23 @@
 # Mac-filer
-.DS_store
+.DS_Store
+.AppleDouble
+.LSOverride
 
-#npm pakker
+# npm pakker
 node_modules/
+package-lock.json
 
-#Bygde filer
-dist/
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+
+# Byggefiler (men IKKE dist/ - den skal commites!)
+build/
+*.tmp
