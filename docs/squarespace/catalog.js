@@ -211,7 +211,7 @@ const ProgramfagCatalog = {
           ${kjerneelementHTML}
         </div>
 
-        ${fag.lareplan ? `<a href="${fag.lareplan}" target="_blank" class="btn-lareplan">Se full læreplan på udir.no →</a>` : ''}
+        <a href="https://sokeresultat.udir.no/finn-lareplan.html?query=${fag.fagkode}&source=Laereplan&fltypefiltermulti=L%C3%A6replan&filtervalues=all" target="_blank" class="btn-lareplan">Se full læreplan på udir.no →</a>
       </div>
     `;
 
