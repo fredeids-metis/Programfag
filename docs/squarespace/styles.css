@@ -281,11 +281,17 @@
 
 .kjerneelement {
   margin-bottom: 20px;
-  padding: 18px;
-  background: var(--background-light);
+  padding: 20px;
+  background: white;
   border-radius: 12px;
   border-left: 5px solid var(--primary-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 10px rgba(31, 71, 57, 0.12);
+  transition: all 0.3s ease;
+}
+
+.kjerneelement:hover {
+  box-shadow: 0 5px 16px rgba(31, 71, 57, 0.18);
+  transform: translateX(4px);
 }
 
 .kjerneelement p {
