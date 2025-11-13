@@ -53,4 +53,4 @@ Kjerneelementet vitenskapelig og kritisk tenkning handler om å kunne skille mel
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3073*  
-*Generert: 2025-11-13 15:42:02*
+*Generert: 2025-11-13 20:43:39*

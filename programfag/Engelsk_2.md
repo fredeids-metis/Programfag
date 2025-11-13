@@ -51,4 +51,4 @@ Språklæringen skjer i møte med engelskspråklige tekster. Tekstbegrepet bruke
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SPR3031*  
-*Generert: 2025-11-13 15:42:07*
+*Generert: 2025-11-13 20:43:44*

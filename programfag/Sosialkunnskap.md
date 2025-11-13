@@ -59,4 +59,4 @@ Kjerneelementet sosiale problemer og utenforskap handler om ulike teoretiske per
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3051*  
-*Generert: 2025-11-13 15:41:43*
+*Generert: 2025-11-13 20:43:20*

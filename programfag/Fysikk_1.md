@@ -60,4 +60,4 @@ Kjerneelementet krefter og felt handler om vekselvirkningen mellom objekter. Vid
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3038*  
-*Generert: 2025-11-13 15:41:12*
+*Generert: 2025-11-13 20:42:46*

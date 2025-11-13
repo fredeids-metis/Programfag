@@ -63,4 +63,4 @@ Kjerneelementet samfunnsvitenskapelig metode og kildebruk handler om å gi eleve
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3054*  
-*Generert: 2025-11-13 15:41:40*
+*Generert: 2025-11-13 20:43:16*

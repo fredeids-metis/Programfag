@@ -59,4 +59,4 @@ Kjerneelementet politiske institusjoner, aktører og prosesser handler om samfun
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3055*  
-*Generert: 2025-11-13 15:41:46*
+*Generert: 2025-11-13 20:43:23*

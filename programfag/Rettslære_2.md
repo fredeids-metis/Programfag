@@ -30,4 +30,4 @@ _(Ingen kjerneelementer funnet)_
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3058*  
-*Generert: 2025-11-13 15:41:57*
+*Generert: 2025-11-13 20:43:34*

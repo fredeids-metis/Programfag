@@ -51,4 +51,4 @@ Kjerneelementet ledelse og bærekraftig verdiskaping handler om ledelse av virks
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3070*  
-*Generert: 2025-11-13 15:41:26*
+*Generert: 2025-11-13 20:43:01*

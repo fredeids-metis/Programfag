@@ -57,4 +57,4 @@ Kjerneelementet menneskets plass i verden handler om hvordan mennesket har forst
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3042*  
-*Generert: 2025-11-13 15:41:48*
+*Generert: 2025-11-13 20:43:26*

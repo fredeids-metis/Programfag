@@ -55,4 +55,4 @@ Kjerneelementet faglig kreativitet og problemløsing handler om å åpne opp for
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3046*  
-*Generert: 2025-11-13 15:41:37*
+*Generert: 2025-11-13 20:43:12*

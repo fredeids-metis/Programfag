@@ -51,4 +51,4 @@ Kjerneelementet billedproduksjon handler om ulike produksjonsteknikker og bruk a
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: MOK3008*  
-*Generert: 2025-11-13 15:42:13*
+*Generert: 2025-11-13 20:43:51*

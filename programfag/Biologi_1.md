@@ -57,4 +57,4 @@ Kjerneelementet biologi i samfunnet handler om hvordan biologisk kompetanse kan 
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3035*  
-*Generert: 2025-11-13 15:41:05*
+*Generert: 2025-11-13 20:42:40*

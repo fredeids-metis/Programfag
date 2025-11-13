@@ -48,4 +48,4 @@ Kjerneelementet musikkens elementer handler om praktisk og teoretisk arbeid med 
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: MUS3008*  
-*Generert: 2025-11-13 15:42:11*
+*Generert: 2025-11-13 20:43:48*

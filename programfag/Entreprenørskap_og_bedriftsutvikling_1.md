@@ -55,4 +55,4 @@ Kjerneelementet strategi og virksomhetsutvikling handler om hvordan virksomheter
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3063*  
-*Generert: 2025-11-13 15:41:29*
+*Generert: 2025-11-13 20:43:04*

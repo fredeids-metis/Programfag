@@ -63,4 +63,4 @@ Kjerneelementet anvendt kjemi handler om å bruke kompetanse i kjemi til å fors
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3045*  
-*Generert: 2025-11-13 15:41:18*
+*Generert: 2025-11-13 20:42:52*
