@@ -74,13 +74,20 @@
   transition: all 0.3s ease;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  outline: none;
 }
 
-.programfag-card:hover {
+.programfag-card:hover,
+.programfag-card:focus {
   box-shadow: 0 8px 20px rgba(31, 71, 57, 0.15);
   transform: translateY(-4px);
   border-color: var(--primary-color);
   background: linear-gradient(to bottom, white 0%, rgba(232, 245, 163, 0.05) 100%);
+}
+
+.programfag-card:focus {
+  outline: 3px solid var(--secondary-color);
+  outline-offset: 2px;
 }
 
 .card-header {
@@ -144,9 +151,9 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1000;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 20px;
+  padding: 40px 20px 20px 20px;
   overflow-y: auto;
 }
 
@@ -341,6 +348,26 @@
   color: #d32f2f;
 }
 
+/* === Ingen resultater melding === */
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+  background: white;
+  border-radius: 16px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.no-results p {
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.no-results strong {
+  color: var(--primary-color);
+}
+
 /* === Responsiv design === */
 @media (max-width: 768px) {
   .programfag-grid {
@@ -396,12 +423,23 @@
     width: calc(100% - 20px); /* Sørg for margins på mobil */
   }
 
+  .modal-body {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
   .kjerneelement {
     padding: 15px;
     margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .kjerneelement h4 {
     font-size: 1.1rem;
+  }
+
+  .modal-body ul li {
+    padding-right: 10px;
   }
 }

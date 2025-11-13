@@ -89,7 +89,14 @@ const ProgramfagCatalog = {
     const preview = omFaget.substring(0, 150) + (omFaget.length > 150 ? '...' : '');
 
     return `
-      <div class="programfag-card" data-fagkode="${fag.fagkode}" data-title="${fag.title.toLowerCase()}">
+      <div class="programfag-card"
+           data-fagkode="${fag.fagkode}"
+           data-title="${fag.title.toLowerCase()}"
+           data-beskrivelse="${omFaget.toLowerCase()}"
+           data-fagid="${fag.id}"
+           tabindex="0"
+           role="article"
+           aria-label="${fag.title} - ${fag.fagkode}">
         <div class="card-header">
           <h3>${fag.title}</h3>
           <span class="fagkode">${fag.fagkode}</span>
@@ -117,19 +124,47 @@ const ProgramfagCatalog = {
     if (!searchInput) return;
 
     searchInput.addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase();
+      const query = e.target.value.toLowerCase().trim();
       const cards = document.querySelectorAll('.programfag-card');
+      const grid = document.getElementById('programfag-grid');
+      let visibleCount = 0;
 
       cards.forEach(card => {
         const title = card.dataset.title;
         const fagkode = card.dataset.fagkode.toLowerCase();
+        const beskrivelse = card.dataset.beskrivelse;
 
-        if (title.includes(query) || fagkode.includes(query)) {
+        // Søk i tittel, fagkode OG beskrivelse
+        if (title.includes(query) || fagkode.includes(query) || beskrivelse.includes(query)) {
           card.style.display = 'block';
+          visibleCount++;
         } else {
           card.style.display = 'none';
         }
       });
+
+      // Vis "Ingen resultater" melding hvis ingen treff
+      let noResultsMsg = document.getElementById('no-results-message');
+
+      if (visibleCount === 0 && query.length > 0) {
+        if (!noResultsMsg) {
+          noResultsMsg = document.createElement('div');
+          noResultsMsg.id = 'no-results-message';
+          noResultsMsg.className = 'no-results';
+          noResultsMsg.innerHTML = `
+            <p>Ingen fag matcher søket "<strong>${e.target.value}</strong>"</p>
+            <p style="font-size: 0.9rem; color: #999; margin-top: 10px;">Prøv et annet søkeord eller fagkode</p>
+          `;
+          grid.parentNode.insertBefore(noResultsMsg, grid.nextSibling);
+        } else {
+          noResultsMsg.innerHTML = `
+            <p>Ingen fag matcher søket "<strong>${e.target.value}</strong>"</p>
+            <p style="font-size: 0.9rem; color: #999; margin-top: 10px;">Prøv et annet søkeord eller fagkode</p>
+          `;
+        }
+      } else if (noResultsMsg) {
+        noResultsMsg.remove();
+      }
     });
   },
 
@@ -246,9 +281,19 @@ const ProgramfagCatalog = {
   }
 };
 
-// Tillat lukking av modal med Escape-knappen
+// Keyboard navigation
 document.addEventListener('keydown', (e) => {
+  // ESC - Lukk modal
   if (e.key === 'Escape') {
     ProgramfagCatalog.closeModal();
+  }
+
+  // Enter eller Space - Åpne fagkort når det er fokusert
+  if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('programfag-card')) {
+    e.preventDefault();
+    const fagId = e.target.dataset.fagid;
+    if (fagId) {
+      ProgramfagCatalog.showDetails(fagId);
+    }
   }
 });
