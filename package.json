@@ -1,0 +1,17 @@
+{
+  "name": "programfag-katalog",
+  "version": "1.0.0",
+  "description": "Katalog over programfag med læreplandata fra UDIR",
+  "main": "scripts/build.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["udir", "læreplan", "programfag", "lk20"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^11.0.0"
+  }
+}
