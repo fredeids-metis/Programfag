@@ -4,6 +4,7 @@ title: Fysikk 1
 fagkode: REA3038
 lareplan: FYS01-02
 vimeo: ""
+bilde: https://fredeids-metis.github.io/Programfag/bilder/fysikk1.jpg
 generert: 2025-11-13
 ---
 
