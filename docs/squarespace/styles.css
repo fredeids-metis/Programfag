@@ -9,6 +9,14 @@
   margin: 0 auto;
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Sørg for at alle elementer bruker border-box */
+#programfag-catalog *,
+#programfag-catalog *::before,
+#programfag-catalog *::after {
+  box-sizing: border-box;
 }
 
 /* === Header og søk === */
@@ -311,6 +319,10 @@
   .programfag-header h2 {
     font-size: 1.5rem;
   }
+
+  .programfag-search {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -325,5 +337,22 @@
 
   .fagkode {
     margin-top: 5px;
+  }
+
+  .programfag-card {
+    padding: 15px;
+  }
+
+  .card-body p {
+    font-size: 0.9rem;
+  }
+
+  .programfag-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .modal-content {
+    padding: 25px 15px;
+    margin: 10px;
   }
 }
