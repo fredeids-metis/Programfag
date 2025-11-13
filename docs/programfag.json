@@ -1,5 +1,5 @@
 {
-  "generert": "2025-11-13T21:13:40.741Z",
+  "generert": "2025-11-13T21:20:33.061Z",
   "antall": 30,
   "fag": [
     {
@@ -304,7 +304,7 @@
       "fagkode": "REA3038",
       "lareplan": "FYS01-02",
       "vimeo": "",
-      "bilde": "",
+      "bilde": "https://fredeids-metis.github.io/Programfag/bilder/fysikk1.jpg",
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.",
