@@ -1,0 +1,8 @@
+# Mac-filer
+.DS_store
+
+#npm pakker
+node_modules/
+
+#Bygde filer
+dist/
