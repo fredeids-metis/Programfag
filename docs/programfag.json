@@ -1,6 +1,6 @@
 {
   "_advarsel": "⚠️ IKKE REDIGER DENNE FILEN! Auto-generert fra /programfag/*.md - Kjør 'npm run build' for å oppdatere",
-  "generert": "2025-11-14T09:23:56.059Z",
+  "generert": "2025-11-14T13:13:13.722Z",
   "antall": 30,
   "fag": [
     {
@@ -10,6 +10,7 @@
       "lareplan": "MOK04‑02",
       "vimeo": "",
       "bilde": "",
+      "related": [],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Faget bilde handler om å arbeide med visuell kommunikasjon og innholdsproduksjon som en del av mediemangfoldet i samfunnet. Faget skal bidra til å utvikle elevenes ferdigheter i kreativitet, planlegging og produksjon og gi innsikt i hvordan billeduttrykk kommuniserer og tolkes. Bilde forbereder elevene på videre studier og på et arbeidsliv hvor det stilles krav til produksjonskvalitet og kommunikasjon.",
@@ -49,6 +50,9 @@
       "lareplan": "BIO01-02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Biologi 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv.",
@@ -94,6 +98,9 @@
       "lareplan": "BIO01-02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Biologi 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Biologi handler om livet på jorden og om sammenhenger mellom biologisk mangfold, evolusjon og biologiske prosesser. Faget skal bidra til at elevene forstår sammenhenger i naturen, og gi dem kunnskap om sammenhenger mellom helse og livsstil. Kompetanse i biologi, etisk bevissthet og miljøbevissthet danner grunnlaget for en bærekraftig forvaltning av biomangfoldet og for å sikre vårt eget livsgrunnlag for framtiden. I biologi får elevene innsikt i hvordan naturvitenskapelig og utforskende arbeid i biologi kan bidra til at vi finner løsninger for en bærekraftig utvikling. Faget skal forberede elevene på videre studier og arbeids- og samfunnsliv.",
@@ -139,6 +146,9 @@
       "lareplan": "ENG04‑02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Engelsk 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden.",
@@ -181,6 +191,9 @@
       "lareplan": "ENG04‑02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Engelsk 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Engelsk programfag handler om språk- og kommunikasjonsutvikling, og skal bidra til danning og identitetsutvikling. Faget skal bidra til å utvikle elevenes interkulturelle forståelse, økt forståelse av allsidigheten i det engelske språket og av betydningen av å bruke et situasjonstilpasset språk. Det å lære engelsk har stor betydning for elevene i utdanning, i arbeidslivet og i samhandling med mennesker fra hele verden.",
@@ -220,6 +233,9 @@
       "lareplan": "ENT01-04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Entreprenørskap og bedriftsutvikling 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Entreprenørskap og bedriftsutvikling handler om innsikt i etablering og videreutvikling av virksomheter. Faget skal gi elevene en teoretisk og praktisk forståelse av hvordan mennesker og virksomheter kan påvirke utviklingen av næringsliv og samfunn. Faget handler videre om hvordan entreprenørskap kan skape nye og utvikle eksisterende arbeidsplasser og forberede elevene på videre studier og framtidig arbeidsliv.",
@@ -263,6 +279,9 @@
       "lareplan": "ENT01-04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Entreprenørskap og bedriftsutvikling 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Entreprenørskap og bedriftsutvikling handler om innsikt i etablering og videreutvikling av virksomheter. Faget skal gi elevene en teoretisk og praktisk forståelse av hvordan mennesker og virksomheter kan påvirke utviklingen av næringsliv og samfunn. Faget handler videre om hvordan entreprenørskap kan skape nye og utvikle eksisterende arbeidsplasser og forberede elevene på videre studier og framtidig arbeidsliv.",
@@ -306,6 +325,9 @@
       "lareplan": "FYS01-02",
       "vimeo": "",
       "bilde": "https://fredeids-metis.github.io/Programfag/bilder/fysikk1.jpg",
+      "related": [
+        "Fysikk 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.",
@@ -354,6 +376,9 @@
       "lareplan": "FYS01-02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Fysikk 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Fysikk handler om å forstå den fysiske verden, fra de minste partiklene til hele universet. Faget gir elevene innsikt i hvordan verden er bygget opp, muligheter til å se sammenhenger i naturlige fenomener og verktøy til å forutsi utfall av fysiske prosesser. Fysikk handler også om hvordan teknologisk utvikling påvirker individet og samfunnet. Kompetanse i analytisk tenkning og problemløsing forbereder elevene til videre utdanning og arbeidsliv.",
@@ -400,6 +425,9 @@
       "lareplan": "HIF01-04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Historie og filosofi 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Historie og filosofi handler om å utvikle selvstendig filosofisk tenkning og forståelse av hvordan mennesket og samfunnet er formet av historie og selv skaper historie. Faget gir elevene trening i åpen dialog, filosofisk refleksjon og historisk bevissthet, slik at de kan møte nåtidens og framtidens utfordringer med en undersøkende og nysgjerrig holdning. Faget skal også forberede elevene på et samfunns- og arbeidsliv der det er viktig å tenke kritisk og kreativt og ha evne til å møte andre mennesker med åpenhet og respekt.",
@@ -445,6 +473,9 @@
       "lareplan": "HIF01-04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Historie og filosofi 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Historie og filosofi handler om å utvikle selvstendig filosofisk tenkning og forståelse av hvordan mennesket og samfunnet er formet av historie og selv skaper historie. Faget gir elevene trening i åpen dialog, filosofisk refleksjon og historisk bevissthet, slik at de kan møte nåtidens og framtidens utfordringer med en undersøkende og nysgjerrig holdning. Faget skal også forberede elevene på et samfunns- og arbeidsliv der det er viktig å tenke kritisk og kreativt og ha evne til å møte andre mennesker med åpenhet og respekt.",
@@ -494,6 +525,7 @@
       "lareplan": "INF01‑03",
       "vimeo": "",
       "bilde": "",
+      "related": [],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Informasjonsteknologi handler om å forstå og utvikle informasjonssystemer. Programfaget skal gi elevene kunnskaper og ferdigheter innenfor informasjonsteknologi, og skal også bidra til forståelse av hvordan informasjonsteknologi påvirker individ og samfunn. Faget skal styrke elevenes digitale kompetanse og forberede dem til å ta begrunnede valg for å benytte informasjonsteknologi i videre studier og arbeidsliv. Faget skal videre forberede elevene til et framtidig samfunns- og arbeidsliv som krever at de kan forstå, bruke og utvikle informasjonsteknologi.",
@@ -540,6 +572,9 @@
       "lareplan": "KJE01-02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Kjemi 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv.",
@@ -591,6 +626,9 @@
       "lareplan": "KJE01-02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Kjemi 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Kjemi handler om stoffers og materialers oppbygning, egenskaper og reaksjoner. Faget skal gi elevene grunnlag for å kunne forstå vår fysiske verden og innsikt i hvordan kompetanse i kjemi bidrar til endringer i samfunnet. Kjemi skal gi innsikt i hvordan naturvitenskapelig kompetanse og utforskende arbeid kan bidra til å finne løsninger og forberede elevene på videre studier og et arbeids- og samfunnsliv.",
@@ -640,6 +678,9 @@
       "lareplan": "MFL01-04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Markedsføring og ledelse 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Markedsføring og ledelse handler om å tilpasse produkter og tjenester til markeder og målgrupper og innsikt i hvordan markedsføring, ledelse og beslutninger henger sammen. Faget skal bidra til at elevene forstår hva som påvirker markeder og hvordan markedsføring påvirker verdiskapingen i samfunnet. Faget skal forberede elevene på videre studier og et samfunns- og arbeidsliv med behov for konkurransedyktige og framtidsrettede virksomheter.",
@@ -684,6 +725,9 @@
       "lareplan": "MFL01-04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Markedsføring og ledelse 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Markedsføring og ledelse handler om å tilpasse produkter og tjenester til markeder og målgrupper og innsikt i hvordan markedsføring, ledelse og beslutninger henger sammen. Faget skal bidra til at elevene forstår hva som påvirker markeder og hvordan markedsføring påvirker verdiskapingen i samfunnet. Faget skal forberede elevene på videre studier og et samfunns- og arbeidsliv med behov for konkurransedyktige og framtidsrettede virksomheter.",
@@ -727,6 +771,7 @@
       "lareplan": "MAT05-04",
       "vimeo": "",
       "bilde": "",
+      "related": [],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Matematikk 2P er et sentralt fag for å kunne forstå og beskrive forhold og sammenhenger i samfunnet gjennom matematisk modellering. Matematikk 2P skal bidra til at elevene utvikler et presist språk for kritisk tenkning og matematiske problemløsingsstrategier. Matematikk 2P skal forberede elevene på videre studier og på et samfunn og arbeidsliv i utvikling, gjennom praktisk bruk av matematikk.",
@@ -772,6 +817,9 @@
       "lareplan": "MAT03-02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Matematikk R2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.",
@@ -822,6 +870,9 @@
       "lareplan": "MAT03-02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Matematikk R1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Matematikk R handler om å forstå moderne anvendelser av matematikk i realfaglige og samfunnsfaglige sammenhenger. Faget gir elevene mulighet til å utvikle et presist språk for kritisk tenkning, evne til problemløsing og matematisk forståelse. Matematikk R handler om å tilegne seg og forstå matematiske verktøy og om å anvende verktøyene i utforsking og analyse av problemstillinger knyttet til realfag og samfunn. Kompetanse om teoretiske og praktiske anvendelser av matematikk forbereder elevene til videre arbeid og utdanning som stiller krav om matematisk forståelse.",
@@ -872,6 +923,9 @@
       "lareplan": "MUS08‑02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Musikk fordypning 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet.",
@@ -907,6 +961,9 @@
       "lareplan": "MUS08‑02",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Musikk fordypning 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Musikk fordypning handler om å fordype seg i skapende prosesser ved å utvikle en kunstnerisk stemme, og ved å arbeide med ulike teknikker for arrangering og komponering og varierte tilnærminger til improvisasjon. Faget skal stimulere elevenes utforskertrang i møte med musikalsk materiale fra ulike tradisjoner, inkludert fra den norske og den samiske folkemusikken. Videre skal faget gi elevene erfaring med å arrangere og komponere et variert repertoar og å legge dette til rette for ulike besetninger, og ruster elevene til å delta i aktiviteter og oppsetninger i det lokale musikklivet. Aktiviteter i faget legger til rette for å utvikle fleksibilitet, evne til samarbeid og til å ta initiativ i skapende prosesser, og bidrar til å forberede elevene til videre studier og til deltakelse i arbeidslivet.",
@@ -943,6 +1000,7 @@
       "lareplan": "POS05-02",
       "vimeo": "",
       "bilde": "",
+      "related": [],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Politikk og menneskerettigheter handler om hvordan vårt eget og andre samfunn blir styrt gjennom politiske beslutninger. Faget skal gi innsikt i menneskerettighetenes betydning individuelt, nasjonalt og internasjonalt. Faget skal også gi grunnlag for aktiv samfunnsdeltakelse og forståelse av og respekt for andre menneskers synspunkter, verdier og kulturuttrykk. Arbeid i faget skal bidra til å utvikle kompetanse som er nyttig for videre studier og arbeidsliv.",
@@ -990,6 +1048,9 @@
       "lareplan": "PSY01‑04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Psykologi 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.",
@@ -1034,6 +1095,9 @@
       "lareplan": "PSY01‑04",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Psykologi 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Psykologi handler om å forstå menneskets tanker, emosjoner og atferd. Faget skal gi et vitenskapelig perspektiv på psykologiske prosesser og mekanismer, i og mellom mennesker, og bidra til at elevene utvikler en sammensatt og mer helhetlig forståelse av mennesket. Psykologi handler om det fellesmenneskelige, det som gjør oss like, men også det som gjør oss ulike og unike. I en verden preget av stadige endringer og utfordringer, kan faget bidra til økt medborgerskap gjennom bevisstgjøring og forståelse av seg selv og andre, på individ-, gruppe- og samfunnsnivå. Faget danner også grunnlag for samhandling på ulike arenaer, som skole, studier og arbeidsliv.",
@@ -1075,6 +1139,9 @@
       "lareplan": "RTL01‑05",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Rettslære 2"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "_(Ikke tilgjengelig)_",
@@ -1096,6 +1163,9 @@
       "lareplan": "RTL01‑05",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Rettslære 1"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "_(Ikke tilgjengelig)_",
@@ -1117,6 +1187,7 @@
       "lareplan": "POS02-02",
       "vimeo": "",
       "bilde": "",
+      "related": [],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Sosialkunnskap handler om å styrke elevenes forståelse av og kritiske bevissthet om velferdssamfunnet. Faget skal gi elevene verktøy til å forstå seg selv som en del av samfunnet og reflektere over utfordringer og muligheter knyttet til identitet og livsmestring. Sosialkunnskap skal danne grunnlag for å drøfte hvordan individer, grupper, organisasjoner og institusjoner fungerer sammen, og gi innsikt i årsaker til sosiale problemer, marginalisering og utenforskap. Sammen med kunnskaper om inkludering i arbeidslivet, skal dette forberede elevene til videre studier og arbeidsliv.",
@@ -1164,6 +1235,7 @@
       "lareplan": "POS04-01",
       "vimeo": "",
       "bilde": "",
+      "related": [],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Sosiologi og sosialantropologi handler om å gi elevene samfunnsvitenskapelig innsikt i det moderne samfunnet og samfunnsutviklingen. Gjennom faget skal elevene utvikle forståelse av hvilken betydning sosiale og kulturelle prosesser har for individet og samfunnet. Faget skal også gi forståelse av ulike levemåter og perspektiver, og slik utvikle demokratisk medborgerskap i det mangfoldige samfunnet. Faget skal videre gi elevene innsikt i hvordan samfunn, kultur og individ preges av mangfold, globalisering og raske teknologiske endringer, og slik legge til rette for videre studier og arbeidsliv.",
@@ -1215,6 +1287,9 @@
       "lareplan": "NOK02-03",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Økonomistyring"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid.",
@@ -1254,6 +1329,9 @@
       "lareplan": "NOK02-03",
       "vimeo": "",
       "bilde": "",
+      "related": [
+        "Økonomi og ledelse"
+      ],
       "generert": "2025-11-13T00:00:00.000Z",
       "sections": {
         "omFaget": "Næringslivsøkonomi handler om økonomisk styring og ledelse av virksomheter. Faget skal bidra til forståelse av økonomiske, etiske og miljømessige sider ved næringsvirksomhet. Faget skal gi elevene innsikt i virksomheters rolle i samfunnet. Kompetanse i ledelse og organisering av virksomheter vil gi elevene innsikt i demokratiske prosesser i arbeidslivet og danne grunnlag for videre studier og arbeid.",
