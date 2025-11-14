@@ -378,12 +378,13 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease;
-  background: white;
+  background: rgba(232, 245, 163, 0.08); /* Veldig lys grønn-grå */
 }
 
 .accordion.open .accordion-content {
   max-height: 2000px; /* Høy nok verdi til å vise alt innhold */
   padding: 20px;
+  background: rgba(232, 245, 163, 0.12); /* Litt mørkere når åpen */
 }
 
 .accordion.open .accordion-header {

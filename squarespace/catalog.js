@@ -34,19 +34,24 @@ const ProgramfagCatalog = {
     const container = this.config.container;
     container.innerHTML = '<p class="loading">Laster programfag...</p>';
 
+    console.log('Laster fra:', this.config.apiUrl);
+
     fetch(this.config.apiUrl)
       .then(response => {
+        console.log('Response status:', response.status);
         if (!response.ok) {
-          throw new Error('Kunne ikke laste data');
+          throw new Error(`HTTP error! status: ${response.status}`);
         }
         return response.json();
       })
       .then(data => {
+        console.log('Data lastet:', data);
         this.renderCatalog(data.fag);
       })
       .catch(error => {
         console.error('Feil ved lasting:', error);
-        container.innerHTML = '<p class="error">Kunne ikke laste programfag. Prøv igjen senere.</p>';
+        console.error('API URL:', this.config.apiUrl);
+        container.innerHTML = `<p class="error">Kunne ikke laste programfag. Prøv igjen senere.<br><small>Feil: ${error.message}</small></p>`;
       });
   },
 
@@ -207,8 +212,8 @@ const ProgramfagCatalog = {
     const kompetansemaal = fag.sections?.kompetansemaal || [];
     const kompetansemaalHTML = kompetansemaal.length > 0
       ? `<div class="accordion">
-          <div class="accordion-header" onclick="ProgramfagCatalog.toggleAccordion(event)">
-            <h3>Kompetansemål <span class="accordion-count">(${kompetansemaal.length})</span></h3>
+          <div class="accordion-header" onclick="ProgramfagCatalog.toggleAccordion(this)">
+            <h3>I dette faget lærer du å ... <span class="accordion-count">(${kompetansemaal.length})</span></h3>
             <span class="accordion-icon">▼</span>
           </div>
           <div class="accordion-content">
@@ -309,10 +314,9 @@ const ProgramfagCatalog = {
 
   /**
    * Toggle accordion åpen/lukket
-   * @param {Event} event - Click event
+   * @param {HTMLElement} header - The clicked header element
    */
-  toggleAccordion: function(event) {
-    const header = event.currentTarget;
+  toggleAccordion: function(header) {
     const accordion = header.parentElement;
     const content = accordion.querySelector('.accordion-content');
     const icon = header.querySelector('.accordion-icon');
