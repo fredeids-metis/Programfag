@@ -188,7 +188,7 @@
   position: absolute;
   top: 15px;
   right: 15px;
-  background: none;
+  background: rgba(255, 255, 255, 0.9);
   border: none;
   font-size: 2rem;
   cursor: pointer;
@@ -200,10 +200,13 @@
   justify-content: center;
   border-radius: 50%;
   transition: all 0.3s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 10;
 }
 
 .modal-close:hover {
-  background: #f0f0f0;
+  background: rgba(240, 240, 240, 0.95);
   color: #333;
 }
 
@@ -450,15 +453,21 @@
     font-size: 1.3rem;
   }
 
+  /* Modal fullskjerm på mobil */
   .programfag-modal {
-    padding: 20px 10px;
+    padding: 0;
+    align-items: stretch;
   }
 
   .modal-content {
-    padding: 20px 15px;
+    padding: 60px 20px 20px 20px; /* Ekstra topp-padding for sticky X-knapp */
     margin: 0;
     width: 100%;
-    border-width: 1px;
+    max-width: 100%;
+    max-height: 100vh;
+    height: 100%;
+    border-radius: 0;
+    border: none;
   }
 
   .modal-content h2 {
@@ -494,6 +503,16 @@
   .modal-body ul li {
     padding-right: 5px;
     font-size: 0.9rem;
+  }
+
+  /* Sticky X-knapp på mobil */
+  .modal-close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
   }
 
   .om-faget {
