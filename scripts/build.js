@@ -79,6 +79,10 @@ fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2), 'utf8');
 console.log(`\n✨ Ferdig! ${programfag.length} fag skrevet til programfag.json`);
 console.log(`📁 ${OUTPUT_FILE}\n`);
 
+// Kjør build-index.js automatisk
+console.log('🔄 Bygger index.html...\n');
+require('./build-index.js');
+
 // Hjelpefunksjon for å parse seksjoner
 function parseMarkdownSections(markdown) {
   const sections = {

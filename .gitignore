@@ -21,3 +21,8 @@ Thumbs.db
 dist/
 build/
 *.tmp
+
+# Auto-genererte filer (bygges av GitHub Actions)
+docs/squarespace/
+docs/programfag.json
+docs/index.html

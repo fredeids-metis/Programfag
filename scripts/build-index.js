@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+const fs = require('fs');
+const path = require('path');
+
+console.log('🏗️  Bygger index.html...\n');
+
+// Les programfag.json for å hente metadata
+const jsonPath = path.join(__dirname, '..', 'dist', 'programfag.json');
+const programfagData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+
+const antallFag = programfagData.antall;
+const genereringsDato = new Date(programfagData.generert).toISOString().split('T')[0];
+
+// HTML-template
+const htmlTemplate = `<!DOCTYPE html>
 <html lang="no">
 <head>
     <meta charset="UTF-8">
@@ -98,7 +111,7 @@ https://fredeids-metis.github.io/Programfag/programfag.json
 
         <h2>Innhold</h2>
         <ul class="feature-list">
-            <li>30 programfag</li>
+            <li>${antallFag} programfag</li>
             <li>Kompetansemål for hvert fag</li>
             <li>Kjerneelementer</li>
             <li>Læreplanlenker</li>
@@ -108,8 +121,8 @@ https://fredeids-metis.github.io/Programfag/programfag.json
         <h2>Eksempel på struktur</h2>
         <div class="api-url">
 {
-  "generert": "2025-11-13T21:20:33.061Z",
-  "antall": 30,
+  "generert": "${programfagData.generert}",
+  "antall": ${antallFag},
   "fag": [
     {
       "id": "bilde",
@@ -140,9 +153,18 @@ fetch('https://fredeids-metis.github.io/Programfag/programfag.json')
         <p>Data hentet fra <a href="https://www.udir.no/api/grep" target="_blank">UDIR GREP API</a> (NLOD-lisensiert)</p>
 
         <div class="footer">
-            <p>Generert: <strong>2025-11-13</strong></p>
+            <p>Generert: <strong>${genereringsDato}</strong></p>
             <p>Se <a href="https://github.com/fredeids-metis/Programfag" target="_blank">GitHub-repo</a> for detaljer</p>
         </div>
     </div>
 </body>
 </html>
+`;
+
+// Skriv til dist/index.html
+const outputPath = path.join(__dirname, '..', 'dist', 'index.html');
+fs.writeFileSync(outputPath, htmlTemplate, 'utf8');
+
+console.log(`✨ index.html generert med ${antallFag} fag`);
+console.log(`📅 Dato: ${genereringsDato}`);
+console.log(`📁 ${outputPath}\n`);

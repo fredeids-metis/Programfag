@@ -32,6 +32,11 @@ jobs:
           mkdir -p docs
           cp -R dist/* docs/ || true
 
+      - name: Copy squarespace files to docs
+        run: |
+          mkdir -p docs/squarespace
+          cp -R squarespace/* docs/squarespace/ || true
+
       - name: Commit and push docs
         uses: EndBug/add-and-commit@v9
         with:
