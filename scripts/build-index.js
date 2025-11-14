@@ -13,6 +13,19 @@ const genereringsDato = new Date(programfagData.generert).toISOString().split('T
 // HTML-template
 const htmlTemplate = `<!DOCTYPE html>
 <html lang="no">
+<!--
+  ⚠️ ADVARSEL: DENNE FILEN ER AUTO-GENERERT!
+
+  IKKE rediger denne filen manuelt - endringer vil bli overskrevet!
+
+  For å endre innholdet:
+  1. Endre markdown-filer i /programfag/
+  2. Kjør: npm run build
+  3. Eller push til GitHub (bygges automatisk)
+
+  Generert av: scripts/build-index.js
+  Sist generert: ${new Date().toISOString()}
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

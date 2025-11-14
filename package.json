@@ -7,7 +7,8 @@
     "build": "node scripts/build.js",
     "sync-docs": "cp -R dist/* docs/ && mkdir -p docs/squarespace && cp -R squarespace/* docs/squarespace/",
     "build-and-sync": "npm run build && npm run sync-docs",
-    "test": "echo \"No tests yet\" && exit 0"
+    "validate": "node scripts/validate.js",
+    "test": "npm run validate"
   },
   "keywords": ["udir", "læreplan", "programfag", "lk20"],
   "author": "",

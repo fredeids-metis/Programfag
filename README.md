@@ -23,35 +23,53 @@ programfag-katalog/
 ├── hent_alle_fag.sh             ← Henter læreplandata fra UDIR API
 ├── verify-setup.sh              ← Sjekker at alt er satt opp riktig
 │
-├── programfag/                  ← 30 markdown-filer (én per fag)
+├── programfag/                  ← 30 markdown-filer (ENDRE HER!)
 │   ├── Biologi_1.md
 │   ├── Matematikk_R1.md
 │   └── ... (28 flere)
 │
 ├── scripts/
-│   └── build.js                 ← Bygger programfag.json fra markdown
+│   ├── build.js                 ← Bygger programfag.json fra markdown
+│   └── build-index.js           ← Genererer index.html dynamisk
+│
+├── dist/                        ← Mellomlagring (auto-generert, ignorert i git)
+│   ├── programfag.json
+│   └── index.html
 │
 ├── docs/                        ← GitHub Pages publiserer herfra
-│   ├── programfag.json          ← Ferdig API-respons (auto-generert)
-│   ├── index.html               ← Landingsside
-│   ├── bilder/                  ← Fagbilder for modal-visning
-│   └── squarespace/             ← Komplett Squarespace-integrasjon
-│       ├── catalog.js           ← Fagkatalog med søk og filtrering
-│       ├── styles.css           ← Responsive styling
-│       ├── demo.html            ← Demo av katalogen
-│       ├── README.md            ← Teknisk dokumentasjon
-│       └── BRUKSANVISNING.md    ← Steg-for-steg guide
+│   ├── programfag.json          ← ⚠️ AUTO-GENERERT - IKKE ENDRE!
+│   ├── index.html               ← ⚠️ AUTO-GENERERT - IKKE ENDRE!
+│   ├── bilder/                  ← Fagbilder (ENDRE HER!)
+│   └── squarespace/             ← ⚠️ AUTO-GENERERT - IKKE ENDRE!
+│       ├── catalog.js
+│       ├── styles.css
+│       ├── demo.html
+│       ├── README.md
+│       └── BRUKSANVISNING.md
 │
-├── squarespace/                 ← Squarespace-filer (kildekode)
-│   ├── catalog.js
-│   ├── styles.css
-│   └── README.md
+├── squarespace/                 ← Squarespace-filer (ENDRE HER!)
+│   ├── catalog.js               ← Kildekode for katalog
+│   ├── styles.css               ← Kildekode for styling
+│   ├── demo.html
+│   ├── README.md
+│   └── BRUKSANVISNING.md
 │
 ├── .github/workflows/
 │   └── publish-docs.yml         ← Automatisk bygging ved push
 │
 └── package.json                 ← Node.js avhengigheter
 ```
+
+### ⚠️ VIKTIG: Hvor skal du endre filer?
+
+| Hvis du vil endre... | Endre HER ✅ | IKKE her ❌ |
+|---------------------|--------------|-------------|
+| Faginnhold | `programfag/*.md` | `docs/programfag.json` |
+| JavaScript/CSS for katalog | `squarespace/catalog.js` eller `squarespace/styles.css` | `docs/squarespace/*` |
+| Fagbilder | `docs/bilder/` | - |
+| Landingsside | Kjør `npm run build` (auto-generert) | `docs/index.html` |
+
+**Regel:** Filer i `docs/` (bortsett fra `bilder/`) er auto-genererte og blir overskrevet!
 
 ---
 
@@ -174,9 +192,28 @@ git push
 ## 📦 npm-kommandoer
 
 ```bash
-npm run build           # Bygger programfag.json fra markdown-filer
+npm run build           # Bygger programfag.json og index.html fra markdown-filer
 npm run sync-docs       # Kopierer fra dist/ til docs/ (gjøres automatisk av workflow)
 npm run build-and-sync  # Begge kommandoene over
+npm run validate        # Sjekker at prosjektstrukturen er korrekt
+npm test                # Kjører validering (alias for validate)
+```
+
+### 🔍 Før du pusher til GitHub
+
+**Anbefalt workflow:**
+```bash
+# 1. Gjør endringer i kildefiler (programfag/ eller squarespace/)
+# 2. Bygg og synkroniser
+npm run build-and-sync
+
+# 3. Valider at alt er i orden
+npm run validate
+
+# 4. Commit og push
+git add .
+git commit -m "Din melding"
+git push
 ```
 
 ---

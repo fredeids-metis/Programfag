@@ -69,6 +69,7 @@ if (!fs.existsSync(distDir)) {
 
 // Skriv JSON-fil
 const output = {
+  _advarsel: "⚠️ IKKE REDIGER DENNE FILEN! Auto-generert fra /programfag/*.md - Kjør 'npm run build' for å oppdatere",
   generert: new Date().toISOString(),
   antall: programfag.length,
   fag: programfag
