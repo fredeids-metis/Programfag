@@ -19,24 +19,33 @@ Dette systemet:
 
 ```
 programfag-katalog/
-├── programfag_lk20.txt          ← Liste over alle 29 fag (master-liste)
+├── programfag_lk20.txt          ← Liste over alle 30 fag (master-liste)
 ├── hent_alle_fag.sh             ← Henter læreplandata fra UDIR API
 ├── verify-setup.sh              ← Sjekker at alt er satt opp riktig
 │
-├── programfag/                  ← 29 markdown-filer (én per fag)
+├── programfag/                  ← 30 markdown-filer (én per fag)
 │   ├── Biologi_1.md
 │   ├── Matematikk_R1.md
-│   └── ... (27 flere)
+│   └── ... (28 flere)
 │
 ├── scripts/
 │   └── build.js                 ← Bygger programfag.json fra markdown
 │
 ├── docs/                        ← GitHub Pages publiserer herfra
 │   ├── programfag.json          ← Ferdig API-respons (auto-generert)
-│   └── index.html               ← Landingsside
+│   ├── index.html               ← Landingsside
+│   ├── bilder/                  ← Fagbilder for modal-visning
+│   └── squarespace/             ← Komplett Squarespace-integrasjon
+│       ├── catalog.js           ← Fagkatalog med søk og filtrering
+│       ├── styles.css           ← Responsive styling
+│       ├── demo.html            ← Demo av katalogen
+│       ├── README.md            ← Teknisk dokumentasjon
+│       └── BRUKSANVISNING.md    ← Steg-for-steg guide
 │
-├── squarespace/                 ← Integrasjon med Squarespace (TODO)
-│   └── README.md                ← Plan for integrasjon
+├── squarespace/                 ← Squarespace-filer (kildekode)
+│   ├── catalog.js
+│   ├── styles.css
+│   └── README.md
 │
 ├── .github/workflows/
 │   └── publish-docs.yml         ← Automatisk bygging ved push
@@ -142,6 +151,24 @@ git push
 ./verify-setup.sh
 ```
 
+#### 🎨 Legge til bilde for et fag
+```bash
+# 1. Legg til bildefil i docs/bilder/
+# Navngi filen etter fag-ID, f.eks: biologi1.jpg, fysikk1.jpg
+
+# 2. Åpne fagfilen (f.eks. Biologi_1.md)
+# 3. Legg til bilde i frontmatter:
+---
+bilde: "bilder/biologi1.jpg"
+---
+
+# 4. Bygg på nytt og push
+npm run build
+git add .
+git commit -m "Legg til bilde for Biologi 1"
+git push
+```
+
 ---
 
 ## 📦 npm-kommandoer
@@ -154,6 +181,32 @@ npm run build-and-sync  # Begge kommandoene over
 
 ---
 
+## 🎨 Squarespace-integrasjon
+
+Prosjektet inkluderer en komplett, ferdig løsning for å vise fagkatalogen på Squarespace.
+
+### Funksjoner
+- ✅ Interaktiv fagkatalog med kort-visning
+- ✅ Søk i fagnavn og fagkoder
+- ✅ Modal-visning med fullstendige fagdetaljer
+- ✅ Bildeintegrasjon (valgfri per fag)
+- ✅ Responsiv design (desktop, tablet, mobil)
+- ✅ Elegant animasjoner og overganger
+
+### Slik implementerer du på Squarespace
+
+**Demo:** Se [docs/squarespace/demo.html](docs/squarespace/demo.html) for forhåndsvisning
+
+**Detaljert guide:** Se [docs/squarespace/BRUKSANVISNING.md](docs/squarespace/BRUKSANVISNING.md)
+
+**Hurtigversjon:**
+1. Opprett en ny Code Block på Squarespace
+2. Kopier innholdet fra [docs/squarespace/catalog.js](docs/squarespace/catalog.js)
+3. Kopier CSS fra [docs/squarespace/styles.css](docs/squarespace/styles.css) til Custom CSS
+4. Publiser!
+
+---
+
 ## 🔮 Fremtidige planer
 
 ### ✅ Ferdig
@@ -162,20 +215,21 @@ npm run build-and-sync  # Begge kommandoene over
 - [x] Bygge JSON-fil
 - [x] GitHub Pages hosting
 - [x] Automatisk publisering via GitHub Actions
-
-### 🚧 Under arbeid
-- [ ] **Squarespace-integrasjon**
-  - Lage `catalog.js` - JavaScript for å vise fagene
-  - Lage `styles.css` - CSS for styling
-  - Legge til søk og filtrering
-  - Responsive design
+- [x] **Squarespace-integrasjon**
+  - [x] `catalog.js` - Interaktiv fagkatalog
+  - [x] `styles.css` - Responsive styling
+  - [x] Søk og filtrering
+  - [x] Modal-visning med fagdetaljer
+  - [x] Bildeintegrasjon
+  - [x] Demo-side og dokumentasjon
 
 ### 💡 Fremtidige ideer
 - [ ] Automatisk oppdatering fra UDIR (schedulert GitHub Action)
 - [ ] Mulighet for å filtrere på faggrupper
 - [ ] Eksportere til andre formater (CSV, Excel)
-- [ ] Legge til bilder/ikoner for hvert fag
+- [ ] Legge til flere bilder for alle fag
 - [ ] Statistikk og visualisering av kompetansemål
+- [ ] Vimeo-videointegrasjon for alle fag
 
 ---
 
