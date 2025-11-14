@@ -1,7 +1,5 @@
 # Fagnavn;Fagkode;Læreplankode
 
-Informasjonsteknologi 1;REA3048;INF01‑03
-
 Matematikk R1;REA3056;MAT03-02
 Matematikk R2;REA3058;MAT03-02
 
@@ -28,6 +26,9 @@ Markedsføring og ledelse 2;SAM3046;MFL01-04
 Sosiologi og sosialantropologi;SAM3054;POS04-01
 Sosialkunnskap;SAM3051;POS02-02
 Politikk og menneskerettigheter;SAM3055;POS05-02
+
+Samfunnsøkonomi 1;SAM3060;SOK01‑03
+Samfunnsøkonomi 2;SAM3061;SOK01‑03
 
 Historie og filosofi 1;SAM3042;HIF01-04
 Historie og filosofi 2;SAM3043;HIF01-04
