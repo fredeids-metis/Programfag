@@ -239,11 +239,17 @@ const ProgramfagCatalog = {
         </div>`
       : '';
 
+    // Relaterte fag HTML
+    const relatedHTML = fag.related && fag.related.length > 0
+      ? `<p class="related-info">Fordypning i lag med: <span class="related-badge-large">${fag.related.join(', ')}</span></p>`
+      : '';
+
     modal.innerHTML = `
       <div class="modal-content">
         <button class="modal-close" onclick="ProgramfagCatalog.closeModal()">&times;</button>
         <h2>${fag.title}</h2>
         <p class="fagkode-large">${fag.fagkode}</p>
+        ${relatedHTML}
 
         ${bildeHTML}
         ${vimeoHTML}

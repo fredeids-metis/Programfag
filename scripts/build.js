@@ -11,8 +11,41 @@ marked.setOptions({
 
 const PROGRAMFAG_DIR = path.join(__dirname, '..', 'programfag');
 const OUTPUT_FILE = path.join(__dirname, '..', 'dist', 'programfag.json');
+const PROGRAMFAG_LK20_FILE = path.join(__dirname, '..', 'programfag_lk20.txt');
 
 console.log('🔨 Bygger programfag.json...\n');
+
+// Parse programfag_lk20.txt for å bygge mapping av fagområder
+function parseProgramfagLk20() {
+  const mapping = new Map(); // lareplan -> array of titles
+
+  if (!fs.existsSync(PROGRAMFAG_LK20_FILE)) {
+    console.warn('⚠️  programfag_lk20.txt ikke funnet. Relaterte fag vil ikke bli beregnet.');
+    return mapping;
+  }
+
+  const content = fs.readFileSync(PROGRAMFAG_LK20_FILE, 'utf8');
+  const lines = content.split('\n');
+
+  lines.forEach(line => {
+    if (line.startsWith('#') || !line.trim()) return;
+
+    const parts = line.split(';');
+    if (parts.length >= 3) {
+      const title = parts[0].trim();
+      const lareplan = parts[2].trim();
+
+      if (!mapping.has(lareplan)) {
+        mapping.set(lareplan, []);
+      }
+      mapping.get(lareplan).push(title);
+    }
+  });
+
+  return mapping;
+}
+
+const lareplanMapping = parseProgramfagLk20();
 
 // Les alle .md-filer
 const files = fs.readdirSync(PROGRAMFAG_DIR).filter(f => f.endsWith('.md'));
@@ -40,6 +73,13 @@ files.forEach(file => {
   // Parse seksjoner fra markdown
   const sections = parseMarkdownSections(markdown);
   
+  // Finn relaterte fag basert på læreplankode
+  let relatedFag = [];
+  if (data.lareplan && lareplanMapping.has(data.lareplan)) {
+    relatedFag = lareplanMapping.get(data.lareplan)
+      .filter(title => title !== data.title); // Ekskluder faget selv
+  }
+
   // Bygg fag-objekt
   const fag = {
     id: data.id,
@@ -48,14 +88,17 @@ files.forEach(file => {
     lareplan: data.lareplan || '',
     vimeo: data.vimeo || '',
     bilde: data.bilde || '',
+    related: relatedFag,
     generert: data.generert || '',
     sections: sections,
     html: html,
     rawMarkdown: markdown
   };
-  
+
   programfag.push(fag);
-  console.log(`✅ ${data.title}`);
+
+  const relatedInfo = relatedFag.length > 0 ? ` (→ ${relatedFag.join(', ')})` : '';
+  console.log(`✅ ${data.title}${relatedInfo}`);
 });
 
 // Sorter alfabetisk etter title

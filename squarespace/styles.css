@@ -224,6 +224,23 @@
   margin-bottom: 20px;
 }
 
+/* === Relaterte fag (Fordypning i lag med) === */
+.related-info {
+  display: inline-block;
+  background: var(--secondary-color);
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.related-badge-large {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
 /* === Fagbilde === */
 .fag-bilde {
   margin: 20px 0;
