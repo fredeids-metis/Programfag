@@ -266,6 +266,9 @@ const ProgramfagCatalog = {
 
     modal.style.display = 'flex';
 
+    // Lås body scroll når modal er åpen
+    document.body.style.overflow = 'hidden';
+
     // Lukk ved klikk utenfor innholdet
     modal.onclick = (e) => {
       if (e.target === modal) {
@@ -281,6 +284,8 @@ const ProgramfagCatalog = {
     const modal = document.getElementById('programfag-modal');
     if (modal) {
       modal.style.display = 'none';
+      // Gjenopprett body scroll
+      document.body.style.overflow = '';
     }
   },
 
