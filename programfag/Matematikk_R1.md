@@ -4,7 +4,7 @@ title: Matematikk R1
 fagkode: REA3056
 lareplan: MAT03-02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Matematikk R1
@@ -62,4 +62,4 @@ Abstraksjon i matematikk R handler om et formelt symbolspråk og formelle resonn
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3056*  
-*Generert: 2025-11-13 20:42:31*
+*Generert: 2025-11-14 14:20:59*

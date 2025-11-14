@@ -4,7 +4,7 @@ title: Psykologi 2
 fagkode: SAM3073
 lareplan: PSY01‑04
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Psykologi 2
@@ -53,4 +53,4 @@ Kjerneelementet vitenskapelig og kritisk tenkning handler om å kunne skille mel
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3073*  
-*Generert: 2025-11-13 20:43:39*
+*Generert: 2025-11-14 14:22:22*

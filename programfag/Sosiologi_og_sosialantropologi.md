@@ -4,7 +4,7 @@ title: Sosiologi og sosialantropologi
 fagkode: SAM3054
 lareplan: POS04-01
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Sosiologi og sosialantropologi
@@ -63,4 +63,4 @@ Kjerneelementet samfunnsvitenskapelig metode og kildebruk handler om å gi eleve
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3054*  
-*Generert: 2025-11-13 20:43:16*
+*Generert: 2025-11-14 14:21:50*

@@ -4,7 +4,7 @@ title: Økonomi og ledelse
 fagkode: SAM3070
 lareplan: NOK02-03
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Økonomi og ledelse
@@ -51,4 +51,4 @@ Kjerneelementet ledelse og bærekraftig verdiskaping handler om ledelse av virks
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3070*  
-*Generert: 2025-11-13 20:43:01*
+*Generert: 2025-11-14 14:21:32*

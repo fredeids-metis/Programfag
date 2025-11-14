@@ -4,7 +4,7 @@ title: Kjemi 1
 fagkode: REA3045
 lareplan: KJE01-02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Kjemi 1
@@ -63,4 +63,4 @@ Kjerneelementet anvendt kjemi handler om å bruke kompetanse i kjemi til å fors
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3045*  
-*Generert: 2025-11-13 20:42:52*
+*Generert: 2025-11-14 14:21:22*

@@ -4,7 +4,7 @@ title: Rettslære 1
 fagkode: SAM3057
 lareplan: RTL01‑05
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Rettslære 1
@@ -30,4 +30,4 @@ _(Ingen kjerneelementer funnet)_
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3057*  
-*Generert: 2025-11-13 20:43:32*
+*Generert: 2025-11-14 14:22:13*

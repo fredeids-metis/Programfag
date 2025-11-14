@@ -4,7 +4,7 @@ title: Entreprenørskap og bedriftsutvikling 1
 fagkode: SAM3063
 lareplan: ENT01-04
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Entreprenørskap og bedriftsutvikling 1
@@ -55,4 +55,4 @@ Kjerneelementet strategi og virksomhetsutvikling handler om hvordan virksomheter
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3063*  
-*Generert: 2025-11-13 20:43:04*
+*Generert: 2025-11-14 14:21:35*

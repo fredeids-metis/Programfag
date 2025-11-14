@@ -4,7 +4,7 @@ title: Bilde
 fagkode: MOK3008
 lareplan: MOK04‑02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Bilde
@@ -51,4 +51,4 @@ Kjerneelementet billedproduksjon handler om ulike produksjonsteknikker og bruk a
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: MOK3008*  
-*Generert: 2025-11-13 20:43:51*
+*Generert: 2025-11-14 14:22:33*

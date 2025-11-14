@@ -4,7 +4,7 @@ title: Kjemi 2
 fagkode: REA3046
 lareplan: KJE01-02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Kjemi 2
@@ -61,4 +61,4 @@ Kjerneelementet anvendt kjemi handler om å bruke kompetanse i kjemi til å fors
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3046*  
-*Generert: 2025-11-13 20:42:56*
+*Generert: 2025-11-14 14:21:26*

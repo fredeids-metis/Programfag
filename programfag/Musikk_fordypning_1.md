@@ -4,7 +4,7 @@ title: Musikk fordypning 1
 fagkode: MUS3006
 lareplan: MUS08‑02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Musikk fordypning 1
@@ -47,4 +47,4 @@ Kjerneelementet musikkens elementer handler om praktisk og teoretisk arbeid med 
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: MUS3006*  
-*Generert: 2025-11-13 20:43:46*
+*Generert: 2025-11-14 14:22:29*

@@ -4,7 +4,7 @@ title: Politikk og menneskerettigheter
 fagkode: SAM3055
 lareplan: POS05-02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Politikk og menneskerettigheter
@@ -59,4 +59,4 @@ Kjerneelementet politiske institusjoner, aktører og prosesser handler om samfun
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3055*  
-*Generert: 2025-11-13 20:43:23*
+*Generert: 2025-11-14 14:21:57*

@@ -4,7 +4,7 @@ title: Engelsk 1
 fagkode: SPR3029
 lareplan: ENG04‑02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Engelsk 1
@@ -54,4 +54,4 @@ Språklæringen skjer i møte med engelskspråklige tekster. Tekstbegrepet bruke
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SPR3029*  
-*Generert: 2025-11-13 20:43:42*
+*Generert: 2025-11-14 14:22:24*

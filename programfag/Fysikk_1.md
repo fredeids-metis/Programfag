@@ -4,8 +4,7 @@ title: Fysikk 1
 fagkode: REA3038
 lareplan: FYS01-02
 vimeo: ""
-bilde: https://fredeids-metis.github.io/Programfag/bilder/fysikk1.jpg
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Fysikk 1
@@ -61,4 +60,4 @@ Kjerneelementet krefter og felt handler om vekselvirkningen mellom objekter. Vid
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3038*  
-*Generert: 2025-11-13 20:42:46*
+*Generert: 2025-11-14 14:21:15*

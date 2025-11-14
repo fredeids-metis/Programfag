@@ -4,7 +4,7 @@ title: Økonomistyring
 fagkode: SAM3068
 lareplan: NOK02-03
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Økonomistyring
@@ -54,4 +54,4 @@ Kjerneelementet ledelse og bærekraftig verdiskaping handler om ledelse av virks
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3068*  
-*Generert: 2025-11-13 20:42:58*
+*Generert: 2025-11-14 14:21:30*

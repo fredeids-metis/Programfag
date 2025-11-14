@@ -4,7 +4,7 @@ title: Biologi 2
 fagkode: REA3036
 lareplan: BIO01-02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Biologi 2
@@ -57,4 +57,4 @@ Kjerneelementet biologi i samfunnet handler om hvordan biologisk kompetanse kan 
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3036*  
-*Generert: 2025-11-13 20:42:43*
+*Generert: 2025-11-14 14:21:11*

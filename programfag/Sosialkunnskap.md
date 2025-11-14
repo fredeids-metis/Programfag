@@ -4,7 +4,7 @@ title: Sosialkunnskap
 fagkode: SAM3051
 lareplan: POS02-02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Sosialkunnskap
@@ -59,4 +59,4 @@ Kjerneelementet sosiale problemer og utenforskap handler om ulike teoretiske per
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3051*  
-*Generert: 2025-11-13 20:43:20*
+*Generert: 2025-11-14 14:21:53*

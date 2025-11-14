@@ -4,7 +4,7 @@ title: Historie og filosofi 1
 fagkode: SAM3042
 lareplan: HIF01-04
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Historie og filosofi 1
@@ -57,4 +57,4 @@ Kjerneelementet menneskets plass i verden handler om hvordan mennesket har forst
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3042*  
-*Generert: 2025-11-13 20:43:26*
+*Generert: 2025-11-14 14:22:07*

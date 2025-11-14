@@ -4,7 +4,7 @@ title: Markedsføring og ledelse 1
 fagkode: SAM3045
 lareplan: MFL01-04
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Markedsføring og ledelse 1
@@ -56,4 +56,4 @@ Kjerneelementet faglig kreativitet og problemløsing handler om å åpne opp for
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: SAM3045*  
-*Generert: 2025-11-13 20:43:10*
+*Generert: 2025-11-14 14:21:41*

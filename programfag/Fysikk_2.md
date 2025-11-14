@@ -4,7 +4,7 @@ title: Fysikk 2
 fagkode: REA3039
 lareplan: FYS01-02
 vimeo: ""
-generert: 2025-11-13
+generert: 2025-11-14
 ---
 
 # Fysikk 2
@@ -58,4 +58,4 @@ Kjerneelementet krefter og felt handler om vekselvirkningen mellom objekter. Vid
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3039*  
-*Generert: 2025-11-13 20:42:49*
+*Generert: 2025-11-14 14:21:18*
