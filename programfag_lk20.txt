@@ -46,4 +46,4 @@ Musikk fordypning 1;MUS3006;MUS08‑02
 Musikk fordypning 2;MUS3008;MUS08‑02
 
 Bilde;MOK3008;MOK04‑02
-Grafisk design;MOK3011;MOK06-02
+Grafisk design;MOK3010;MOK06-02

@@ -203,10 +203,18 @@ const ProgramfagCatalog = {
       document.body.appendChild(modal);
     }
 
-    // Lag innhold for kompetansemål
+    // Lag innhold for kompetansemål med accordion
     const kompetansemaal = fag.sections?.kompetansemaal || [];
     const kompetansemaalHTML = kompetansemaal.length > 0
-      ? `<h3>Kompetansemål</h3><ul>${kompetansemaal.map(k => `<li>${k}</li>`).join('')}</ul>`
+      ? `<div class="accordion">
+          <div class="accordion-header" onclick="ProgramfagCatalog.toggleAccordion(event)">
+            <h3>Kompetansemål <span class="accordion-count">(${kompetansemaal.length})</span></h3>
+            <span class="accordion-icon">▼</span>
+          </div>
+          <div class="accordion-content">
+            <ul>${kompetansemaal.map(k => `<li>${k}</li>`).join('')}</ul>
+          </div>
+        </div>`
       : '';
 
     // Lag innhold for kjerneelementer
@@ -297,6 +305,27 @@ const ProgramfagCatalog = {
   extractVimeoId: function(url) {
     const match = url.match(/vimeo\.com\/(\d+)/);
     return match ? match[1] : '';
+  },
+
+  /**
+   * Toggle accordion åpen/lukket
+   * @param {Event} event - Click event
+   */
+  toggleAccordion: function(event) {
+    const header = event.currentTarget;
+    const accordion = header.parentElement;
+    const content = accordion.querySelector('.accordion-content');
+    const icon = header.querySelector('.accordion-icon');
+
+    // Toggle open class
+    accordion.classList.toggle('open');
+
+    // Roter ikon
+    if (accordion.classList.contains('open')) {
+      icon.textContent = '▲';
+    } else {
+      icon.textContent = '▼';
+    }
   }
 };
 
