@@ -62,4 +62,4 @@ Abstraksjon i matematikk R handler om et formelt symbolspråk og formelle resonn
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: REA3058*  
-*Generert: 2025-11-14 14:21:03*
+*Generert: 2025-11-14 15:58:49*

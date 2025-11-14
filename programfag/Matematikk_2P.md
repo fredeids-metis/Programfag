@@ -57,4 +57,4 @@ Abstraksjon i matematikk 2P handler om å bruke et formelt symbolspråk og forme
 ---
 *Hentet fra UDIR Grep API*  
 *Fagkode: MAT1023*  
-*Generert: 2025-11-14 14:21:05*
+*Generert: 2025-11-14 15:58:51*
