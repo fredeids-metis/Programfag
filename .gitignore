@@ -23,6 +23,6 @@ build/
 *.tmp
 
 # Auto-genererte filer (bygges av GitHub Actions)
-docs/squarespace/
-docs/programfag.json
-docs/index.html
+# Disse filene MÅ committes til git for GitHub Pages, men bygges automatisk
+# Ikke endre disse filene manuelt - endre kildene i /squarespace/ eller /programfag/
+dist/
